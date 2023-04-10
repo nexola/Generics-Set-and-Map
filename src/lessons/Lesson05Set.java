@@ -1,5 +1,7 @@
 package lessons;
 
+import lessons_entities.lesson02.Product;
+
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -48,5 +50,13 @@ public class Lesson05Set {
         e.removeAll(b);
         System.out.println(e);
 
+        Set<Product> setProduct = new HashSet<>();
+        setProduct.add(new Product("TV", 900.0));
+        setProduct.add(new Product("Notebook", 1200.0));
+        setProduct.add(new Product("Tablet", 400.0));
+
+        Product prod = new Product("Notebook", 1200.0);
+
+        System.out.println(setProduct.contains(prod)); // Retorna falso quando a classe Product não possuir o hashcode e equals, pois o Set compara os ponteiros do objeto e não o conteúdo
     }
 }
