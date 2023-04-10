@@ -1,4 +1,4 @@
-package lessons_entities.generics;
+package lessons_entities.lesson02;
 
 public class Product implements Comparable<Product> {
     private String name;

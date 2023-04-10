@@ -1,4 +1,6 @@
-package lessons_entities.generics;
+package lessons_entities.lesson03;
 
-public class Shape {
+public interface Shape {
+
+    double area();
 }

@@ -1,4 +1,4 @@
-package lessons_entities.generics;
+package lessons_entities.lesson01;
 
 import java.util.ArrayList;
 import java.util.List;

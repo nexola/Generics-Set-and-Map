@@ -1,6 +1,6 @@
-package lessons.generics;
+package lessons;
 
-import lessons_entities.generics.PrintService;
+import lessons_entities.lesson01.PrintService;
 
 import java.util.Scanner;
 
