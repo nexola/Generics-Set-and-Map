@@ -1,6 +1,5 @@
 package lessons;
 
-import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
@@ -35,7 +34,7 @@ public class Lesson07SetExercise02 {
         totalAlunos.addAll(cursoC);
 
         int sum = 0;
-        for (Integer alunos : totalAlunos) {
+        for (Integer ignored : totalAlunos) {
             sum += 1;
         }
 
